@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAL
+{
+    public interface IMapper<T>
+    {
+        void Agregar(T obj);
+        void Borrar(T obj);
+        void Modificar(T obj);
+        List<T> Listar();
+    }
+}
