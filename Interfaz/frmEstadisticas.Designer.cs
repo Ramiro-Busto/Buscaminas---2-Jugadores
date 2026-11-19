@@ -177,8 +177,7 @@
             //
             // frmEstadisticas
             //
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(228)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(1900, 750);
             this.Controls.Add(this.dgvMovimientos);

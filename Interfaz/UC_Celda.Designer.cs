@@ -44,8 +44,7 @@
             // 
             // UC_Celda
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.btnCelda);
             this.Name = "UC_Celda";
             this.ResumeLayout(false);
